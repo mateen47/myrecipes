@@ -1,3 +1,51 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.navbar { 
+	background-color: #073b15; 
+	border-radius: 5px; 
+}
+
+.jumbotron{
+	background-image: asset-url('cover_image2.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+.center{
+	text-align: center;
+}
+
+#logo{
+	float:left;
+	font-size:1.7em;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:-1px; 
+	font-weight:bold;
+}
+
+#logo:hover{
+	color:#000;
+	text-decoration:none;
+	
+}
+
+.jumbotron{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.btn-xlarge{
+	background-color: #073b15 !important; 
+	border-color:  #073b15 !important; 
+}
+
+.btn-xlarge:hover{
+	background-color: #070000!important;
+	text-decoration: none;
+}
